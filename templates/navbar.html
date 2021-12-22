@@ -28,6 +28,9 @@
           <a class="nav-link" href="{% url 'account:logout' %}">Logout</a>
         </li>        
       {% endif %}
+      <li class="nav-item">
+        <a class="nav-link" href = "{% url 'board:board_list' %}">FAQ</a>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0" action="{% url 'search_app:searchResult' %}" method="get">
       {% csrf_token %}

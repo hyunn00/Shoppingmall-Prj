@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'search_app',
     'cart',
     'account',
+    'stripe',
+    'order',
+    'board',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +139,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STRIPE_PUBLIC_KEY = 'pk_test_51K7VT5LLVT7jJqUXq14dZyw86CzMOsdAtB6n65K2b4seBXKG9Qs2kcMWwWh0nskIb3LHhAKXliicZF1qPkmwdkXl0089mMXcMK'
+STRIPE_SECRET_KEY = 'sk_test_51K7VT5LLVT7jJqUXeErxtAmawVNGsH8bWHEB7xlu7NfBpXflGImGC6Uvll4DQoRqnZLVz6ByuXhwXxe9oX6k20S700dYTyzmSx'

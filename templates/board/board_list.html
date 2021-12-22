@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row mt-5">
+  <div class="col-12">
+    <table class="table">
+      <thead class="thead-white">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">제목</th>
+          <th scope="col">아이디</th>
+          <th scope="col">작성일</th>
+          <th scope="col">최종수정일</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for board in boards %}
+        <tr onclick="location.href='/board/detail/{{ board.id }}/'">
+          <th scope="row">{{ board.id }}</th>
+          <td>{{ board.title }}</td>
+          <td>{{ board.writer }}</td>
+          <td>{{ board.created_at }}</td>
+          <td>{{ board.updated_at }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+  </div>
+</div>
+<div class="row mt-2">
+  <div class="col-12">
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        {% if boards.has_previous %}
+        <li class="page-item">
+          <a class="page-link" href="?p={{ boards.previous_page_number }}"
+            >Previous</a
+          >
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Previous</a>
+        </li>
+        {% endif %}
+        <li class="page-item">
+          <a class="page-link" href="#"
+            >{{ boards.number }} / {{ boards.paginator.num_pages }}</a
+          >
+        </li>
+        {% if boards.has_next %}
+        <li class="page-item">
+          <a class="page-link" href="?p={{ boards.next_page_number }}">Next</a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Next</a>
+        </li>
+        {% endif %}
+      </ul>
+    </nav>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <button class="btn btn-secondary" onclick="location.href='/board/write/'">글쓰기</button>
+  </div>
+</div>
+{% endblock %}

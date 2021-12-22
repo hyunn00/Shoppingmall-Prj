@@ -26,15 +26,25 @@
         <div class="col-12">
             <form method = "POST" action=".">
                 {% csrf_token %}
+                {% for field in form %}
                 <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" class="form-control btn-block" id="username" placeholder="username" name="username" style="width:50%">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    <input
+                      type="{{ field.field.widget.input_type }}"
+                      class="form-control"
+                      id="{{ field.id_for_label }}"
+                      placeholder="{{ field.label }}"
+                      name="{{ field.name }}"
+                      style="width:50%"
+                    />
                 </div>
-                <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control btn-block" id="password" placeholder="password" name="password" style="width:50%">
-                </div>
+                {% if field.errors %}
+                <span style="color: red;">{{ field.errors }}</span>
+                {% endif %} 
+                {% endfor %}
+                <br>
                 <button type="submit" class="btn btn-secondary btn-block my_custom_button"  style="width:50%">Login</button>
+                <br>
             </form>
         </div>
     </div>
