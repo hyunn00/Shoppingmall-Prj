@@ -25,6 +25,9 @@
         </li>
       {% else %}
         <li class="nav-item">
+          <a class="nav-link" href="">{{ user.username }}</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="{% url 'account:logout' %}">Logout</a>
         </li>        
       {% endif %}
