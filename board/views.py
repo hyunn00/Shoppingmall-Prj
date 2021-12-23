@@ -13,9 +13,9 @@ def board_list(request) :
     # p라는 값으로 받을거고, 없으면 첫번째 페이지로
     pagenator   = Paginator(all_boards, 10)
     # Paginator 함수를 적용하는데, 첫번째 인자는 위에 변수인 전체 오브젝트, 2번째 인자는
-    # 한 페이지당 오브젝트 2개씩 나오게 설정
+    # 한 페이지당 오브젝트 10개씩 나오게 설정
     boards      = pagenator.get_page(page)
-    # 처음 2개가 세팅 된다.
+    # 처음 10개가 세팅 된다.
     return render(request, 'board/board_list.html', {"boards" : boards})
 
 def board_write(request):
