@@ -42,3 +42,4 @@
 **Usecase Diagram**
 
 **ERD Diagram**
+![ErdDiagram](https://user-images.githubusercontent.com/90684987/147316171-b88db8e9-017f-4fde-8135-3a1a144b310c.png)
