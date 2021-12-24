@@ -54,6 +54,8 @@
 
 <h3 id = "main">메인 페이지</h3>
 
+https://user-images.githubusercontent.com/90684987/147317659-5dad73ad-9de4-4a22-9c89-e91a4e598335.mp4
+
 » 구현 기능<br>
 
     * 전체 제품 목록 조회
