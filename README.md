@@ -9,7 +9,7 @@
     <li>
       <a href="#내용">내용</a>
     </li>
-    <li><a href="#구현-기능">구현 기능</a>
+    <li><a href="#구현-페이지">구현 페이지</a>
       <ul>
         <li><a href="#main">메인 페이지</a></li>
         <li><a href="#item">제품 리스트 페이지</a></li>
@@ -39,7 +39,24 @@
 * 고객 : 회원가입, 게시판 조회, 상품 조회, 상품목록 조회
 * 회원 : 상품 주문, 결제, 장바구니 담기, 장바구니 상품 삭제
 * 관리자 : 게시판 관리, 카테고리 관리, 회원 관리, 상품 관리
+
+<br>
+
 **Usecase Diagram**
+![UsecaseDiagram](https://user-images.githubusercontent.com/90684987/147316228-5226ec19-c8dc-4fdd-a324-078b71379c4c.png)
 
 **ERD Diagram**
 ![ErdDiagram](https://user-images.githubusercontent.com/90684987/147316171-b88db8e9-017f-4fde-8135-3a1a144b310c.png)
+
+---
+
+# 구현 페이지
+
+<h3 id = "main">메인 페이지</h3>
+
+» 구현 기능<br>
+
+    * 전체 제품 목록 조회
+    * 페이징을 통해 제품 목록 넘기기
+    * 웹사이트 로고 클릭을 통해 메인 페이지로 이동
+    * Navbar를 사용한 메뉴바
