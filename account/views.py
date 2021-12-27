@@ -37,6 +37,7 @@ def register(request):
                 phone = phone,
             )
             member.save()
+            return redirect('/shop')
 
         return render(request, 'account/register.html', res_data)
 
