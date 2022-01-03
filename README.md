@@ -74,6 +74,8 @@ https://user-images.githubusercontent.com/90684987/147317659-5dad73ad-9de4-4a22-
 
 <h3 id = "item">제품 페이지</h3>
 
+https://user-images.githubusercontent.com/90684987/147429079-40440b7a-9b15-4305-a859-4a3c9098f73a.mp4
+
 » 구현 기능<br>
 
     * 카테고리별 제품 리스트 화면에 render
@@ -86,6 +88,8 @@ https://user-images.githubusercontent.com/90684987/147317659-5dad73ad-9de4-4a22-
     
 <h3 id = "search">검색창</h3>
 
+https://user-images.githubusercontent.com/90684987/147429323-c2bc2629-be4c-4cc6-b5cc-f447ce3c099b.mp4
+
 » 구현 기능<br>
 
     * navbar의 검색창을 통해 검색하고자 하는 단어 입력
@@ -97,6 +101,8 @@ https://user-images.githubusercontent.com/90684987/147317659-5dad73ad-9de4-4a22-
     * 클릭 시, 제품 상세 페이지로 이동
     
 <h3 id = "cart">장바구니</h3>
+
+https://user-images.githubusercontent.com/90684987/147429453-2890c6b4-2c4b-4264-ba51-45b2874bcd96.mp4
 
 » 구현 기능<br>
 
@@ -112,6 +118,8 @@ https://user-images.githubusercontent.com/90684987/147317659-5dad73ad-9de4-4a22-
     
 <h3 id = "order">주문 결제</h3>
 
+https://user-images.githubusercontent.com/90684987/147434386-e9c7a665-c020-463d-a863-4450004c5db0.mp4
+
 » 구현 기능<br>
 
     * Stripe 플랫폼를 이용한 제품 결제 템플릿 사용
@@ -123,6 +131,10 @@ https://user-images.githubusercontent.com/90684987/147317659-5dad73ad-9de4-4a22-
     * 주문 완료되면 장바구니의 상품이 사라지고 메인 페이지로 이동
     
 <h3 id = "sign">로그인, 회원가입</h3>
+
+https://user-images.githubusercontent.com/90684987/147433599-426f605c-922a-4453-b5ee-7350492d6ff0.mp4
+
+https://user-images.githubusercontent.com/90684987/147434477-92902a61-9ae2-4b10-9334-d214b441b1fc.mp4
 
 » 구현 기능<br>
 
@@ -138,6 +150,8 @@ https://user-images.githubusercontent.com/90684987/147317659-5dad73ad-9de4-4a22-
     * 회원가입 페이지에서 sign up 버튼 로그인 페이지에서 login 버튼 클릭시 메인 화면 페이지로 이동
 
 <h3 id = "faq">FAQ 페이지</h3>
+
+https://user-images.githubusercontent.com/90684987/147434664-f93d6485-1276-497d-99bb-3fa0177932d4.mp4
 
 » 구현 기능<br>
 
