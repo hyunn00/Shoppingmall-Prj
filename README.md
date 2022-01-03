@@ -132,7 +132,11 @@ https://user-images.githubusercontent.com/90684987/147434386-e9c7a665-c020-463d-
     
 <h3 id = "sign">로그인, 회원가입</h3>
 
+로그인 페이지
+
 https://user-images.githubusercontent.com/90684987/147433599-426f605c-922a-4453-b5ee-7350492d6ff0.mp4
+
+회원가입 페이지
 
 https://user-images.githubusercontent.com/90684987/147434477-92902a61-9ae2-4b10-9334-d214b441b1fc.mp4
 
